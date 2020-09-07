@@ -37,9 +37,7 @@ public class Ornek_AmazonKayitSayfasi extends TestBase {  //DAY 14 - 6 Eylul 202
        WebElement yourName = driver.findElement(By.id("ap_customer_name"));
        yourName.sendKeys("Fidan Tanriverdi");
 
-       WebElement emailKutusu = driver.findElement(By.id("ap_email"));
-       emailKutusu.sendKeys("fiidan3434@gmail.com");
-
+       driver.findElement(By.id("ap_email")).sendKeys("fiidan3434@gmail.com");
        driver.findElement(By.id("ap_password")).sendKeys("Kerem2010");
        driver.findElement(By.id("ap_password_check")).sendKeys("Kerem2010");
        driver.findElement(By.id("continue")).click();
