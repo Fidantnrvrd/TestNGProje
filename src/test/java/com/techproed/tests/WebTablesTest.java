@@ -12,8 +12,6 @@ import java.util.List;
 public class WebTablesTest extends TestBase {
 
 
-
-
     public void giris() {
         driver.get("http://fhctrip-qa.com/admin/HotelRoomAdmin");
         driver.findElement(By.id("UserName")).sendKeys("manager2");

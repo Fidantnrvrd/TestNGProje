@@ -23,7 +23,7 @@ public class FhcTripHotelCreateTest extends TestBase {
         fhcTripHotelCreatePage.nameKutusu.sendKeys("Techproed");
         fhcTripHotelCreatePage.telefonKutusu.sendKeys("1223454534");
 
-        Select select = new Select(fhcTripHotelCreatePage.selectKutusu);
+        Select select = new Select(fhcTripHotelCreatePage.selectKutusu); // dropdown
         select.selectByIndex(2);
         fhcTripHotelCreatePage.saveButonu.click();
 
